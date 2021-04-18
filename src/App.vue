@@ -3,7 +3,7 @@
     <div id="nav">
       <b-navbar variant="faded" type="light">
         <b-navbar-brand href="#">
-          <router-link to="/">Beers</router-link>
+          <router-link to="/">BEER</router-link>
         </b-navbar-brand>
       </b-navbar>
     </div>
