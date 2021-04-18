@@ -1,12 +1,26 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <b-navbar variant="faded" type="light">
+        <b-navbar-brand href="#">
+          <router-link to="/">Beers</router-link>
+        </b-navbar-brand>
+      </b-navbar>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  name: "App",
+  data() {
+    return {};
+  },
+  components: {},
+};
+</script>
+
 
 <style>
 #app {
@@ -18,15 +32,18 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 0px;
+  background-color: black;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  text-decoration: none;
+  color: white;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: white;
+  text-decoration: none;
 }
 </style>
