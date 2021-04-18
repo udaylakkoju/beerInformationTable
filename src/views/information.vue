@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
     <div class="informationTemplate">
       <h1 class="title">
@@ -11,14 +11,14 @@
       </div>
       <p class="descript">
         <span class="descript-title"> Description </span> :
-        <br>
-         {{ beerInformation.descript }}
+        <br />
+        {{ beerInformation.descript }}
       </p>
     </div>
     <div class="text-right">
-      <b-button squared @click="goToLandingPage" class="backButtonClass"
-        >Back To Landing Page</b-button
-      >
+      <b-button squared @click="goToLandingPage" class="backButtonClass">
+        Back To Landing Page
+      </b-button>
     </div>
   </div>
 </template>

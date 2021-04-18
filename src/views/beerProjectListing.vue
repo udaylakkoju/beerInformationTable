@@ -54,7 +54,6 @@ export default {
   },
   computed: {},
   methods: {
-    // in methods
     onRowClick(params) {
       let beerInformation = params.row;
       this.$router.push({
