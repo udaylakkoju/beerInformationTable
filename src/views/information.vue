@@ -29,7 +29,7 @@ export default {
     return {
       items: [
         {
-          text: "Beer Listing",
+          text: "Home",
           href: "/",
         },
       ],
